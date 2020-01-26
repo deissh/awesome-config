@@ -763,6 +763,10 @@ function hotkeys:init(args)
 		},
 
 		{
+			{ "Control" }, "space", function() redflat.widget.keyboard:toggle() end,
+			{ description = "Togle current lang", group = "Applications" }
+		},
+		{
 			{ env.mod }, "Return", function() awful.spawn(env.terminal) end,
 			{ description = "Open a terminal", group = "Applications" }
 		},

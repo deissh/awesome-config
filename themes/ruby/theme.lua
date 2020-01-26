@@ -11,6 +11,7 @@ local theme = require("themes/colored/theme")
 -- Color scheme
 -----------------------------------------------------------------------------------------------------------------------
 theme.color.main   = "#A30817"
+-- theme.color.main   = "#233F8D"
 theme.color.urgent = "#016B84"
 
 

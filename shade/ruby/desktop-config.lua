@@ -257,9 +257,14 @@ function desktop:init(args)
 
 	-- Desktop setup
 	--------------------------------------------------------------------------------
+	-- local desktop_objects = {
+	-- 	calendar, netspeed, hddspeed, ssdspeed, transm, cpumem,
+	-- 	disks, qemu, vnstat, fan, thermal_chips, thermal_storage
+	-- }
+
 	local desktop_objects = {
 		calendar, netspeed, hddspeed, ssdspeed, transm, cpumem,
-		disks, qemu, vnstat, fan, thermal_chips, thermal_storage
+		disks, qemu
 	}
 
 	if not autohide then
